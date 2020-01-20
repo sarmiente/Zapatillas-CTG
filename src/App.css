@@ -1,0 +1,47 @@
+:root {
+  --mainDark:#07090F;
+  --lightDark:#1C1D21;
+  --mainWhite:#f3f3f3;
+  --mainGray:#40434E;
+  --mainYellow: #ffc100;
+}
+
+body {
+  font-family: "Oswald", "Roboto" !important;
+  background-color: var(--mainWhite) !important;
+  color: var(--mainGray) !important;
+}
+
+.text-title {
+  font-family: 'Oswald', 'Roboto', sans-serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-dark{
+  color:var(--mainDark);
+}
+
+.text-bright {
+  color: var(--lightDark)
+}
+
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 25px !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+
+.btn-black:hover {
+  background: var(--mainGray);
+  color: var(--mainWhite);
+}
+
+.cart-icon {
+  cursor:pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow)
+}
